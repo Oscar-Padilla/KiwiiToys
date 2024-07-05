@@ -19,14 +19,14 @@
             "img": "{{webRoot}}/assets/images/categories/category-3.jpg"
         },
         {
-            "small-title": "Naruto &amp; Naruto shippuden",
-            "large-title": "ninjitsu &amp; taijutsu",
+            "small-title": "Naruto & Naruto shippuden",
+            "large-title": "Ninjitsu & Taijutsu",
             "button-text": "Compra Ahora",
             "img": "{{webRoot}}/assets/images/categories/category-4.jpg"
         },
         {
             "small-title": "Isekai",
-            "large-title": "Overlord &amp; Konosuba",
+            "large-title": "Overlord & Konosuba",
             "button-text": "Compra Ahora",
             "img": "{{webRoot}}/assets/images/categories/category-5.jpg"
         },
@@ -44,7 +44,7 @@
         },
         {
             "small-title": "Figuras Nendoroid",
-            "large-title": "Overlord  &amp; Miku",
+            "large-title": "Overlord & Miku",
             "button-text": "Compra Ahora",
             "img": "{{webRoot}}/assets/images/categories/category-8.jpg"
         }
