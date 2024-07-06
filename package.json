@@ -44,6 +44,7 @@
         "choices.js": "^9.0.1",
         "medium-zoom": "^1.0.6",
         "nouislider": "^14.6.3",
+        "remixicon": "^4.3.0",
         "simplebar": "^5.3.0",
         "swiper": "^6.2.0",
         "tippy.js": "^6.3.1",

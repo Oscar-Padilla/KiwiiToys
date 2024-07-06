@@ -1,45 +1,33 @@
 {
     "brands": [
         {
-            "label": "Adidas",
+            "label": "Bandai",
             "count": "21"
         },
         {
-            "label": "Asics",
+            "label": "SH.Figuarts",
             "count": "13"
         },
         {
-            "label": "Canterbury",
+            "label": "Nendroid",
             "count": "18"
         },
         {
-            "label": "Converse",
+            "label": "Mafex",
             "count": "25"
         },
         {
-            "label": "Donnay",
+            "label": "Figma",
             "count": "11"
         },
         {
-            "label": "Nike",
+            "label": "Banpresto",
             "count": "19"
         },
         {
-            "label": "Millet",
+            "label": "Tamashii Nations",
             "count": "24"
-        },
-        {
-            "label": "Puma",
-            "count": "11"
-        },
-        {
-            "label": "Reebok",
-            "count": "19"
-        },
-        {
-            "label": "Under Armour",
-            "count": "24"
-        }           
+        }        
     ],
     "sizes": [
         {
@@ -75,28 +63,5 @@
         {
             "label": "11.5"
         }          
-    ],
-    "colours": [
-        {
-            "colour-class": "form-check-primary"
-        },
-        {
-            "colour-class": "form-check-success"
-        },
-        {
-            "colour-class": "form-check-danger"
-        },
-        {
-            "colour-class": "form-check-info"
-        },
-        {
-            "colour-class": "form-check-warning"
-        },
-        {
-            "colour-class": "form-check-dark"
-        },
-        {
-            "colour-class": "form-check-secondary"
-        }
     ]
 }
