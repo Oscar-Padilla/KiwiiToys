@@ -35,12 +35,13 @@
       {{#each slideshow-instagram.entries}}
       <div class="swiper-slide flex-column">
         <picture>
-          <img
-            class="rounded shadow-sm img-fluid"
-            data-zoomable
-            src="{{ img }}"
-            title=""
-            alt="">
+          <a href="{{ link }}" target="_blank" rel="noopener">
+            <img
+              class="rounded shadow-sm img-fluid"
+              src="{{ img }}"
+              title=""
+              alt="">
+          </a>
         </picture>
       </div>
       {{/each}}
