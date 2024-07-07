@@ -1,102 +1,68 @@
 {
     "brands": [
         {
-            "label": "Adidas",
+            "label": "S.H.FIGUARTS",
             "count": "21"
         },
         {
-            "label": "Asics",
+            "label": "S.H.MONSTERARTS",
             "count": "13"
         },
         {
-            "label": "Canterbury",
+            "label": "FIGUARTS MINI",
             "count": "18"
         },
         {
-            "label": "Converse",
+            "label": "NENDOROID",
             "count": "25"
         },
         {
-            "label": "Donnay",
+            "label": "MAFEX",
             "count": "11"
         },
         {
-            "label": "Nike",
+            "label": "FIGMA",
             "count": "19"
         },
         {
-            "label": "Millet",
+            "label": "BANPRESTO",
             "count": "24"
         },
         {
-            "label": "Puma",
+            "label": "PROPLICA",
             "count": "11"
         },
         {
-            "label": "Reebok",
+            "label": "MODEL KIT",
             "count": "19"
         },
         {
-            "label": "Under Armour",
+            "label": "KOTOBUKIYA",
             "count": "24"
         }           
     ],
     "sizes": [
         {
-            "label": "6.5"
+            "label": "5CM"
         },
         {
-            "label": "7"
+            "label": "10CM"
         },
         {
-            "label": "7.5"
+            "label": "15CM"
         },
         {
-            "label": "8"
+            "label": "20CM"
         },
         {
-            "label": "8.5"
+            "label": "25CM"
         },
         {
-            "label": "9"
+            "label": "30CM"
         },
         {
-            "label": "9.5"
-        },
-        {
-            "label": "10"
-        },
-        {
-            "label": "10.5"
-        },
-        {
-            "label": "11"
-        },
-        {
-            "label": "11.5"
-        }          
-    ],
-    "colours": [
-        {
-            "colour-class": "form-check-primary"
-        },
-        {
-            "colour-class": "form-check-success"
-        },
-        {
-            "colour-class": "form-check-danger"
-        },
-        {
-            "colour-class": "form-check-info"
-        },
-        {
-            "colour-class": "form-check-warning"
-        },
-        {
-            "colour-class": "form-check-dark"
-        },
-        {
-            "colour-class": "form-check-secondary"
-        }
+            "label": "50CM"
+        }      
     ]
+   
 }

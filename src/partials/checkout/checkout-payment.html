@@ -3,7 +3,7 @@
 <!-- / Checkout Information Summary-->
 
 <!-- Checkout Panel Information-->
-<h3 class="fs-5 fw-bolder mb-4 border-bottom pb-4">Payment Information</h3>
+<h3 class="fs-5 fw-bolder mb-4 border-bottom pb-4">Información del Pago</h3>
 
 <div class="row">
 
@@ -14,7 +14,7 @@
       <label class="form-check-label" for="checoutPaymentStripe">
         <span class="d-flex justify-content-between align-items-start">
           <span>
-            <span class="mb-0 fw-bolder d-block">Credit Card (Stripe)</span>
+            <span class="mb-0 fw-bolder d-block">Tarjeta de crédito</span>
           </span>
           <i class="ri-bank-card-line"></i>
         </span>
@@ -44,15 +44,15 @@
   <div class="row pt-3">
     <div class="col-md-12">
       <div class="form-group">
-        <label for="cc-name" class="form-label">Name on card</label>
+        <label for="cc-name" class="form-label">Nombre de la tarjeta</label>
         <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-        <small class="text-muted">Full name as displayed on card</small>
+        <small class="text-muted">Titular de la tarjeta</small>
       </div>
     </div>
 
     <div class="col-md-12">
       <div class="form-group">
-        <label for="cc-number" class="form-label">Credit card number</label>
+        <label for="cc-number" class="form-label">Número de la tarjeta</label>
         <input type="text" class="form-control" id="cc-number" placeholder="" required="">
       </div>
     </div>
@@ -67,11 +67,11 @@
     <div class="col-md-6">
       <div class="form-group">
         <div class="d-flex">
-          <label for="cc-cvv" class="form-label d-flex w-100 justify-content-between align-items-center">Security Code</label>
+          <label for="cc-cvv" class="form-label d-flex w-100 justify-content-between align-items-center">Código de seguridad</label>
           <button type="button" class="btn btn-link p-0 fw-bolder fs-xs text-nowrap" data-bs-toggle="tooltip"
                   data-bs-placement="top"
-                  title="A CVV is a number on your credit card or debit card that's in addition to your credit card number and expiration date">
-            What's this?
+                  title="El CVV es un número en tu  tarjeta de crédito o débito que se solicita para proteger tus compras">
+            Qué es esto?
           </button>
         </div>
         <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
@@ -83,19 +83,17 @@
 
 <!-- Paypal Info-->
 <div class="paypal-details bg-light p-4 d-none my-3 fw-bolder">
-  Please click on complete order. You will then be transferred to Paypal to enter your payment details.
+  Porfavor haz click para completar tu compra. Serás transferido a Paypal para ingresar sus datos de pago..
 </div>
 <!-- /Paypal Info-->
 
 <!-- Accept Terms Checkbox-->
 <div class="form-group form-check m-0">
   <input type="checkbox" class="form-check-input" id="accept-terms" checked>
-  <label class="form-check-label fw-bolder" for="accept-terms">I agree to {{ config.templateName }}'s <a href="#">terms &
-      conditions</a></label>
+  <label class="form-check-label fw-bolder" for="accept-terms">I agree to {{ config.templateName }}'s <a href="#">Terminos y condiciones</a></label>
 </div>
 
 <div class="pt-5 mt-5 pb-5 border-top d-flex flex-column flex-md-row justify-content-between align-items-center">
-  <a href="{{webRoot}}/checkout-shipping.html" class="btn ps-md-0 btn-link fw-bolder w-100 w-md-auto mb-2 mb-md-0" role="button">Back to
-    shipping</a>
-  <a href="#" class="btn btn-dark w-100 w-md-auto" role="button">Complete Order</a>
+  <a href="{{webRoot}}/checkout-shipping.html" class="btn ps-md-0 btn-link fw-bolder w-100 w-md-auto mb-2 mb-md-0" role="button">Regresar a pago/a>
+  <a href="#" class="btn btn-dark w-100 w-md-auto" role="button">Compra completada</a>
 </div>
