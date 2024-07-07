@@ -2,7 +2,7 @@
 {{#if (config slideshow-instagram) }}
 <div data-aos="fade-in">
   <h3 class="title-small text-muted text-center mb-3 mt-5"><i class="ri-instagram-line align-bottom"></i>
-    #OLDSKOOL
+    #KiwiiToys
 </h3>
 <div class="overflow-hidden">
   <div class="swiper-container swiper-overflow-visible"
@@ -35,12 +35,13 @@
       {{#each slideshow-instagram.entries}}
       <div class="swiper-slide flex-column">
         <picture>
-          <img
-            class="rounded shadow-sm img-fluid"
-            data-zoomable
-            src="{{ img }}"
-            title=""
-            alt="">
+          <a href="{{ link }}" target="_blank" rel="noopener">
+            <img
+              class="rounded shadow-sm img-fluid"
+              src="{{ img }}"
+              title=""
+              alt="">
+          </a>
         </picture>
       </div>
       {{/each}}
