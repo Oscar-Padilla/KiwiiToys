@@ -5,56 +5,43 @@
         img="{{webRoot}}/assets/images/products/product-cart-1.jpg"
         border="true"
         showQty="true"
-        name="Nike Air VaporMax 2021"
+        name="S.H.Figuarts: Dragon Ball Super Super Hero - Son Goku - Super Hero Ver. (Reissue) [Bandai]"
         qty="1"
-        options="Size: 9"
-        price="$85.00"
-    }}
-    <!-- / Cart Item-->
-    <!-- Cart Item-->
-    {{>
-        cart/cart-item 
-        img="{{webRoot}}/assets/images/products/product-cart-2.jpg"
-        border="true"
-        showQty="true"
-        name="Nike ZoomX Vaporfly"
-        qty="1"
-        options="Size: 11"
-        price="$125.00"
+        options="Marca: S.H.Figuarts"
+        price="$503.13"
     }}
     <!-- / Cart Item-->
 </div>
 <div class="py-4 border-bottom">
     <div class="d-flex justify-content-between align-items-center mb-2">
         <p class="m-0 fw-bolder fs-6">Subtotal</p>
-        <p class="m-0 fs-6 fw-bolder">$422.99</p>
+        <p class="m-0 fs-6 fw-bolder">$503.13</p>
     </div>
     <div class="d-flex justify-content-between align-items-center ">
-        <p class="m-0 fw-bolder fs-6">Shipping</p>
-        <p class="m-0 fs-6 fw-bolder">$8.95</p>
+        <p class="m-0 fw-bolder fs-6">Envío</p>
+        <p class="m-0 fs-6 fw-bolder">$129.00</p>
     </div>
 </div>
 <div class="py-4 border-bottom">
     <div class="d-flex justify-content-between">
         <div>
-            <p class="m-0 fw-bold fs-5">Grand Total</p>
-            <span class="text-muted small">Inc $45.89 sales tax</span>
+            <p class="m-0 fw-bold fs-5">Total</p>
+            <span class="text-muted small">Más envío</span>
         </div>
-        <p class="m-0 fs-5 fw-bold">$422.99</p>
+        <p class="m-0 fs-5 fw-bold">$632.13</p>
     </div>
 </div>
 <div class="py-4">
     <div class="input-group mb-0">
-        <input type="text" class="form-control" placeholder="Enter your coupon code">
-        <button class="btn btn-dark btn-sm px-4">Apply</button>
+        <input type="text" class="form-control" placeholder="Cupón de descuento">
+        <button class="btn btn-dark btn-sm px-4">Aplicar</button>
     </div>
 </div>
 {{#if show-action-buttons}}
 <!-- Accept Terms Checkbox-->
 <div class="form-group form-check my-4">
     <input type="checkbox" class="form-check-input" id="accept-terms" checked>
-    <label class="form-check-label fw-bolder" for="accept-terms">I agree to Outdoorly's <a href="#">terms &
-            conditions</a></label>
+    <label class="form-check-label fw-bolder" for="accept-terms">Acepto los <a href="#">Términos y condiciones</a></label>
 </div>
-<a href="{{webRoot}}/order-success.html" class="btn btn-dark w-100" role="button">Complete Order</a>
+<a href="{{webRoot}}/order-success.html" class="btn btn-dark w-100" role="button">Completar orden</a>
 {{/if}}
