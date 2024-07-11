@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- Head -->
-{{> (config config.partials.head) title="Perfil de Usuario" }}
+{{> (config config.partials.head) title=config.defaultPageTitle }}
 
 <body class="{{ config.classes.body }}">
 
@@ -13,7 +13,7 @@
     <!-- / Navbar-->
 
     <!-- Main Section-->
-    <section class="mt-0 overflow-hidden {{ config.classes.content }}">
+    <section class="mt-0 {{ config.classes.content }}">
         <!-- Page Content Goes Here -->
 
         <!-- Profile Section -->
@@ -115,6 +115,8 @@
             classList=""
         }}
     <!-- / Footer-->
+     <!-- Theme JS -->
+    {{> footer/scripts }}
 
 </body>
 
